@@ -11,12 +11,12 @@ function Dog({name, breed, superpower, imageSrc}: Props) {
       <div className="dog-wrapper">
         <div className="dog">
           <div className="dog-name-plate">
-            <span className="dog-name">{name}</span>
+            <h3 className="dog-name">{name}</h3>
             <span className="dog-breed">{breed}</span>
           </div>
           <span className="dog-superpower">{superpower}</span>
         </div>
-        <img src={imageSrc} alt="" />
+        <img src={imageSrc} alt="A dog" />
       </div>
       
     </>
